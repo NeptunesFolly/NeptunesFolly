@@ -1,0 +1,10 @@
+graph TD;
+    A[Employee Resigns] --> B{Exit Interview Needed?};
+    B -->|Yes| C[Conduct Exit Interview];
+    C --> D[Submit Resignation Letter];
+    D --> E[HR Updates Records];
+    E --> F[Calculate Final Paycheck and Benefits];
+    F --> G[Collect Company Property];
+    G --> H[Communicate Resignation to Relevant Departments];
+    H --> I[Employee Leaves];
+    B -->|No| D;
